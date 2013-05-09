@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D1DDF85173B9E5C0048F11F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1DDF84173B9E5C0048F11F /* UIKit.framework */; };
+		4D1DDF87173B9E5C0048F11F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1DDF86173B9E5C0048F11F /* Foundation.framework */; };
+		4D1DDF89173B9E5C0048F11F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1DDF88173B9E5C0048F11F /* CoreGraphics.framework */; };
+		4D1DDF8F173B9E5C0048F11F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D1DDF8D173B9E5C0048F11F /* InfoPlist.strings */; };
+		4D1DDF91173B9E5C0048F11F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DDF90173B9E5C0048F11F /* main.m */; };
+		4D1DDF95173B9E5C0048F11F /* HelloWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DDF94173B9E5C0048F11F /* HelloWorldAppDelegate.m */; };
+		4D1DDF97173B9E5C0048F11F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D1DDF96173B9E5C0048F11F /* Default.png */; };
+		4D1DDF99173B9E5C0048F11F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D1DDF98173B9E5C0048F11F /* Default@2x.png */; };
+		4D1DDF9B173B9E5C0048F11F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D1DDF9A173B9E5C0048F11F /* Default-568h@2x.png */; };
+		4D1DDF9E173B9E5C0048F11F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1DDF9C173B9E5C0048F11F /* MainStoryboard.storyboard */; };
+		4D1DDFA1173B9E5C0048F11F /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DDFA0173B9E5C0048F11F /* HelloWorldViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D1DDF80173B9E5C0048F11F /* Tap Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1DDF84173B9E5C0048F11F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D1DDF86173B9E5C0048F11F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D1DDF88173B9E5C0048F11F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D1DDF8C173B9E5C0048F11F /* Tap Me-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tap Me-Info.plist"; sourceTree = "<group>"; };
+		4D1DDF8E173B9E5C0048F11F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D1DDF90173B9E5C0048F11F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D1DDF92173B9E5C0048F11F /* Tap Me-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tap Me-Prefix.pch"; sourceTree = "<group>"; };
+		4D1DDF93173B9E5C0048F11F /* HelloWorldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldAppDelegate.h; sourceTree = "<group>"; };
+		4D1DDF94173B9E5C0048F11F /* HelloWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldAppDelegate.m; sourceTree = "<group>"; };
+		4D1DDF96173B9E5C0048F11F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4D1DDF98173B9E5C0048F11F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4D1DDF9A173B9E5C0048F11F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4D1DDF9D173B9E5C0048F11F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4D1DDF9F173B9E5C0048F11F /* HelloWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
+		4D1DDFA0173B9E5C0048F11F /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D1DDF7D173B9E5C0048F11F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1DDF85173B9E5C0048F11F /* UIKit.framework in Frameworks */,
+				4D1DDF87173B9E5C0048F11F /* Foundation.framework in Frameworks */,
+				4D1DDF89173B9E5C0048F11F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D1DDF75173B9E5C0048F11F = {
+			isa = PBXGroup;
+			children = (
+				4D1DDF8A173B9E5C0048F11F /* Tap Me */,
+				4D1DDF83173B9E5C0048F11F /* Frameworks */,
+				4D1DDF81173B9E5C0048F11F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D1DDF81173B9E5C0048F11F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D1DDF80173B9E5C0048F11F /* Tap Me.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D1DDF83173B9E5C0048F11F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D1DDF84173B9E5C0048F11F /* UIKit.framework */,
+				4D1DDF86173B9E5C0048F11F /* Foundation.framework */,
+				4D1DDF88173B9E5C0048F11F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D1DDF8A173B9E5C0048F11F /* Tap Me */ = {
+			isa = PBXGroup;
+			children = (
+				4D1DDF93173B9E5C0048F11F /* HelloWorldAppDelegate.h */,
+				4D1DDF94173B9E5C0048F11F /* HelloWorldAppDelegate.m */,
+				4D1DDF9C173B9E5C0048F11F /* MainStoryboard.storyboard */,
+				4D1DDF9F173B9E5C0048F11F /* HelloWorldViewController.h */,
+				4D1DDFA0173B9E5C0048F11F /* HelloWorldViewController.m */,
+				4D1DDF8B173B9E5C0048F11F /* Supporting Files */,
+			);
+			path = "Tap Me";
+			sourceTree = "<group>";
+		};
+		4D1DDF8B173B9E5C0048F11F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D1DDF8C173B9E5C0048F11F /* Tap Me-Info.plist */,
+				4D1DDF8D173B9E5C0048F11F /* InfoPlist.strings */,
+				4D1DDF90173B9E5C0048F11F /* main.m */,
+				4D1DDF92173B9E5C0048F11F /* Tap Me-Prefix.pch */,
+				4D1DDF96173B9E5C0048F11F /* Default.png */,
+				4D1DDF98173B9E5C0048F11F /* Default@2x.png */,
+				4D1DDF9A173B9E5C0048F11F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D1DDF7F173B9E5C0048F11F /* Tap Me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1DDFA4173B9E5C0048F11F /* Build configuration list for PBXNativeTarget "Tap Me" */;
+			buildPhases = (
+				4D1DDF7C173B9E5C0048F11F /* Sources */,
+				4D1DDF7D173B9E5C0048F11F /* Frameworks */,
+				4D1DDF7E173B9E5C0048F11F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tap Me";
+			productName = "Tap Me";
+			productReference = 4D1DDF80173B9E5C0048F11F /* Tap Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D1DDF77173B9E5C0048F11F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HelloWorld;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Karthik;
+			};
+			buildConfigurationList = 4D1DDF7A173B9E5C0048F11F /* Build configuration list for PBXProject "Tap Me" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D1DDF75173B9E5C0048F11F;
+			productRefGroup = 4D1DDF81173B9E5C0048F11F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D1DDF7F173B9E5C0048F11F /* Tap Me */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D1DDF7E173B9E5C0048F11F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1DDF8F173B9E5C0048F11F /* InfoPlist.strings in Resources */,
+				4D1DDF97173B9E5C0048F11F /* Default.png in Resources */,
+				4D1DDF99173B9E5C0048F11F /* Default@2x.png in Resources */,
+				4D1DDF9B173B9E5C0048F11F /* Default-568h@2x.png in Resources */,
+				4D1DDF9E173B9E5C0048F11F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D1DDF7C173B9E5C0048F11F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1DDF91173B9E5C0048F11F /* main.m in Sources */,
+				4D1DDF95173B9E5C0048F11F /* HelloWorldAppDelegate.m in Sources */,
+				4D1DDFA1173B9E5C0048F11F /* HelloWorldViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D1DDF8D173B9E5C0048F11F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D1DDF8E173B9E5C0048F11F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D1DDF9C173B9E5C0048F11F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D1DDF9D173B9E5C0048F11F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D1DDFA2173B9E5C0048F11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D1DDFA3173B9E5C0048F11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D1DDFA5173B9E5C0048F11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tap Me/Tap Me-Prefix.pch";
+				INFOPLIST_FILE = "Tap Me/Tap Me-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D1DDFA6173B9E5C0048F11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tap Me/Tap Me-Prefix.pch";
+				INFOPLIST_FILE = "Tap Me/Tap Me-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D1DDF7A173B9E5C0048F11F /* Build configuration list for PBXProject "Tap Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1DDFA2173B9E5C0048F11F /* Debug */,
+				4D1DDFA3173B9E5C0048F11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D1DDFA4173B9E5C0048F11F /* Build configuration list for PBXNativeTarget "Tap Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1DDFA5173B9E5C0048F11F /* Debug */,
+				4D1DDFA6173B9E5C0048F11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D1DDF77173B9E5C0048F11F /* Project object */;
+}
