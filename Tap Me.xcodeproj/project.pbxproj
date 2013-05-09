@@ -18,6 +18,9 @@
 		4D1DDF9B173B9E5C0048F11F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D1DDF9A173B9E5C0048F11F /* Default-568h@2x.png */; };
 		4D1DDF9E173B9E5C0048F11F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1DDF9C173B9E5C0048F11F /* MainStoryboard.storyboard */; };
 		4D1DDFA1173B9E5C0048F11F /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DDFA0173B9E5C0048F11F /* HelloWorldViewController.m */; };
+		4D1DDFC0173BB1020048F11F /* button2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D1DDFBF173BB1020048F11F /* button2.jpg */; };
+		4D1DDFC3173BB1090048F11F /* button1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D1DDFC2173BB1090048F11F /* button1.jpg */; };
+		4D1DDFC5173BB2C20048F11F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1DDFC4173BB2C20048F11F /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		4D1DDF9D173B9E5C0048F11F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		4D1DDF9F173B9E5C0048F11F /* HelloWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
 		4D1DDFA0173B9E5C0048F11F /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
+		4D1DDFBF173BB1020048F11F /* button2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = button2.jpg; sourceTree = "<group>"; };
+		4D1DDFC2173BB1090048F11F /* button1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = button1.jpg; sourceTree = "<group>"; };
+		4D1DDFC4173BB2C20048F11F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1DDFC5173BB2C20048F11F /* AVFoundation.framework in Frameworks */,
 				4D1DDF85173B9E5C0048F11F /* UIKit.framework in Frameworks */,
 				4D1DDF87173B9E5C0048F11F /* Foundation.framework in Frameworks */,
 				4D1DDF89173B9E5C0048F11F /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +63,7 @@
 		4D1DDF75173B9E5C0048F11F = {
 			isa = PBXGroup;
 			children = (
+				4D1DDFC4173BB2C20048F11F /* AVFoundation.framework */,
 				4D1DDF8A173B9E5C0048F11F /* Tap Me */,
 				4D1DDF83173B9E5C0048F11F /* Frameworks */,
 				4D1DDF81173B9E5C0048F11F /* Products */,
@@ -96,6 +104,8 @@
 		4D1DDF8B173B9E5C0048F11F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4D1DDFC2173BB1090048F11F /* button1.jpg */,
+				4D1DDFBF173BB1020048F11F /* button2.jpg */,
 				4D1DDF8C173B9E5C0048F11F /* Tap Me-Info.plist */,
 				4D1DDF8D173B9E5C0048F11F /* InfoPlist.strings */,
 				4D1DDF90173B9E5C0048F11F /* main.m */,
@@ -164,6 +174,8 @@
 				4D1DDF99173B9E5C0048F11F /* Default@2x.png in Resources */,
 				4D1DDF9B173B9E5C0048F11F /* Default-568h@2x.png in Resources */,
 				4D1DDF9E173B9E5C0048F11F /* MainStoryboard.storyboard in Resources */,
+				4D1DDFC0173BB1020048F11F /* button2.jpg in Resources */,
+				4D1DDFC3173BB1090048F11F /* button1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +304,7 @@
 				4D1DDFA6173B9E5C0048F11F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
